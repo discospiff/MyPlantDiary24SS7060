@@ -6,6 +6,6 @@ import retrofit2.http.GET
 
 interface IPlantDAO {
 
-    @GET("")
+    @GET("/discospiff/data/main/plants.md")
     fun getAllPlants() : Call<ArrayList<Plant>>
 }
